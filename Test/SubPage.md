@@ -26,7 +26,9 @@ style B fill:#FFFF00
 ::: mermaid
 graph LR;
 style id1 fill:#00FFFF
-    id1[user]  
+style xd1 fill:#00FFFF
+xd1[trainer]
+    id1[data provider]  
 id1 --> id2[import data]
 id1-->id3[see it's data]
 id1-->id4[select their data]
