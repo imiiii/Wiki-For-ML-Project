@@ -25,8 +25,9 @@ style B fill:#FFFF00
 ##Use Cases
 
 ::: mermaid
+graph LR;
+    id1[This is the text in the box]
  graph LR;
-A[fa:fa-ban data analysis]  b[fa:fa-ban data analysis];
- ;
+    id1[This is the text in the box]
 :::
 
