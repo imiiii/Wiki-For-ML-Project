@@ -31,5 +31,10 @@ id1 --> id2[import data]
 id1-->id3[see it's data]
 id1-->id4[select their data]
 id1-->id5[filter data]
+id1-->id6[start training]
+id1-->id7[see results]
+id1-->id8[normalize data]
+id1-->id9[export it's data]
+
 :::
 
