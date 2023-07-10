@@ -35,6 +35,12 @@ id1-->id6[start training]
 id1-->id7[see results]
 id1-->id8[normalize data]
 id1-->id9[export it's data]
+id1-->id10[save trained model]
+id1-->id11[save data model]
+id1-->id12[see the correlation for a data]
+id1-->id13[defined job]
+id1-->id13[defined job]
+id1-->id13[defined job]
 
 :::
 
