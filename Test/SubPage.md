@@ -27,29 +27,34 @@ style B fill:#FFFF00
 graph LR;
 style id1 fill:#00FFFF
 style xd1 fill:#00FFFF
+style ad1 fill:#00FFFF
+
 xd1[trainer]
+ad1[admin]
     id1[data provider]  
 id1 --> id2[import data]
 id1-->id3[see it's data]
 id1-->id4[select their data]
 id1-->id5[filter data]
-id1-->id6[start training]
+xd1-->id6[start training]
 id1-->id7[see results]
 id1-->id8[normalize data]
 id1-->id9[export it's data]
-id1-->id10[save trained model]
+xd1-->id10[save trained model]
 id1-->id11[save data model]
 id1-->id12[see the correlation for a data]
-id1-->id13[defined job]
-id1-->id14[defined robot]
-id1-->id15[assign robot to pretrained model]
-id1-->id16[assign a job to robot]
-id1-->id17[start prediction]
-id1-->id18[enter training properties]
-id1-->id19[enter prediction properties]
-id1-->id20[see last prediction info]
-id1-->id21[see list of predictions]
+ad1-->id13[defined job]
+ad1-->id14[defined robot]
+xd1-->id15[assign robot to pretrained model]
+ad1-->id16[assign a job to robot]
+xd1-->id17[start prediction]
+xd1-->id18[enter training properties]
+xd1-->id19[enter prediction properties]
+xd1-->id20[see last prediction info]
+xd1-->id21[see list of predictions]
 id1-->id22[see charts and pivots]
+xd1-->id22[see charts and pivots]
+xd1-->id7[see results]
 
 :::
 
