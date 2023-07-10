@@ -8,7 +8,7 @@
 ::: mermaid
  graph LR;
  A[time series data ] -->|input| B(forecasting ML algorithm) -->|output| C[predicted values];
-
+ 
 style B fill:#FFFF00
 
 
@@ -24,5 +24,9 @@ style B fill:#FFFF00
 :::
 ##Use Cases
 
+::: mermaid
+ graph LR;
+A[fa fa-child data analysis];
 
+:::
 
