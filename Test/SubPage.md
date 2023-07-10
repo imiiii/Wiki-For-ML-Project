@@ -39,8 +39,15 @@ id1-->id10[save trained model]
 id1-->id11[save data model]
 id1-->id12[see the correlation for a data]
 id1-->id13[defined job]
-id1-->id13[defined job]
-id1-->id13[defined job]
+id1-->id14[defined robot]
+id1-->id15[assign robot to pretrained model]
+id1-->id16[assign a job to robot]
+id1-->id17[start prediction]
+id1-->id18[enter training properties]
+id1-->id19[enter prediction properties]
+id1-->id20[see last prediction info]
+id1-->id21[see list of predictions]
+id1-->id22[see charts and pivots]
 
 :::
 
