@@ -24,10 +24,16 @@ style B fill:#FFFF00
 :::
 ##Use Cases
 
+
+
 ::: mermaid
+
+
+
 graph LR;
-    id1[This is the text in the box] --> 
-id1 --> id2[This is the text in the box]
-id1-->id3[hdfsdf]
+style id1 fill:#00FFFF
+    id1[user]  
+id1 --> id2[import data]
+id1-->id3[see it's data]
 :::
 
