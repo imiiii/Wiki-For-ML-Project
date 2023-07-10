@@ -26,8 +26,8 @@ style B fill:#FFFF00
 
 ::: mermaid
 graph LR;
-    id1[This is the text in the box]
- graph LR;
-    id1[This is the text in the box]
+    id1[This is the text in the box] --> 
+id1 --> id2[This is the text in the box]
+id1-->id3[hdfsdf]
 :::
 
