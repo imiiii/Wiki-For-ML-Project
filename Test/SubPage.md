@@ -23,20 +23,13 @@ style B fill:#FFFF00
 
 :::
 ##Use Cases
-
-<p>
- 
- [A Markdown link](https://microsoft.com) 
-</p>
-
 ::: mermaid
-
-
-
 graph LR;
 style id1 fill:#00FFFF
     id1[user]  
 id1 --> id2[import data]
 id1-->id3[see it's data]
+id1-->id4[select their data]
+id1-->id5[filter data]
 :::
 
