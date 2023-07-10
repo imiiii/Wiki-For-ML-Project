@@ -26,7 +26,7 @@ style B fill:#FFFF00
 
 ::: mermaid
  graph LR;
-A[fa fa-child data analysis];
-
+A[fa:fa-ban data analysis];
+  
 :::
 
