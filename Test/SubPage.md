@@ -24,7 +24,10 @@ style B fill:#FFFF00
 :::
 ##Use Cases
 
-
+<p>
+ 
+ [A Markdown link](https://microsoft.com) 
+</p>
 
 ::: mermaid
 
