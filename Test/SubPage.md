@@ -65,14 +65,37 @@ xd1-->id7[see results]
  graph LR;
 style xd1 fill:#00FFFF
 
-xd1[trainer] --> xd2[see data pack list] --> xd3[see overall info] --> xd4[start new pack] --> xd6[add data with query] --> xd7[see fetched data] --> xd8[pack it's data] --> xd9[see it's chart and pivot] --> xd10[export result]
+xd1[data provider] --> xd2[see data pack list] --> xd3[see overall info] --> xd4[start new pack] --> xd6[add data with query] --> xd7[see fetched data] --> xd8[pack it's data] --> xd9[see it's chart and pivot] --> xd10[export result]
 xd3--> xd5[set robot]
 xd4 --> xd11[import data with excel] --> xd12[see their columns] --> xd13[select using columns] --> xd8
 xd4 --> xd14[form builder]--> xd15[???ask from master???] --> xd8
 
-xd2 --> xd16[filter packs] --> xd17[see overall info] --> xd18[select one record to see details] --> xd8
+xd2 --> xd16[filter packs] --> xd17[see overall info] --> xd18[select one record to see details] --> xd9
 :::
 
 
+::: mermaid
+ graph LR;
+style xd1 fill:#00FFFF
 
+xd1[trainer] --> xd2[see pretrained model list]  --> xd3[see overall info] -->xd4[select one record to see details] --> xd5[see predicted values]
+xd3 --> xd6[set robot]
+xd2 --> xd7[start new training] --> xd8[select data pack] --> xd9[fill training parameters] --> xd10[start training process]
+xd2 --> xd11[start prediction] --> xd12[fill prediction parameters] --> xd13[see result]
+:::
 
+::: mermaid
+ graph LR;
+style xd1 fill:#00FFFF
+
+xd1[admin] --> xd2[see job list] --> xd3[defined a job]
+xd2 --> xd4[filter jobs] --> xd5[select one record to see details]
+:::
+
+::: mermaid
+ graph LR;
+style xd1 fill:#00FFFF
+
+xd1[admin] --> xd2[see robot list] --> xd3[defined a robot] --> xd6[assign a job to robot]
+xd2 --> xd4[filter robots] --> xd5[select one record to see details]
+:::
