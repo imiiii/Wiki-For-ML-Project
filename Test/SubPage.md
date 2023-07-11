@@ -100,4 +100,28 @@ xd1[admin] --> xd2[see robot list] --> xd3[defined a robot] --> xd6[assign a job
 xd2 --> xd4[filter robots] --> xd5[select one record to see details]
 :::
 
+##Database Diagram
+
+:::mermaid
+classDiagram
+    Predict<|-- Train
+    Train <|-- Data View 
+    Data View <|-- Data View Record
+    Predict: +int Id
+    Predict: +int Train Id
+    Predict: +int Predicted Value
+
+    Train: +int Id
+    Train: +int Data View Id
+    Train: +string Title
+    Train: +string InputCol
+    Train: +string OutputCol
+    Train: +int SeriesLenght
+    Train: +int Horizon
+    Train: +datetime LatestUpdate
+    Train: Evaluation Results
+
+
+  
+:::
 
