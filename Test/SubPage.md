@@ -68,7 +68,7 @@ style xd1 fill:#00FFFF
 xd1[trainer] --> xd2[see data pack list] --> xd3[see overall info] --> xd4[start new pack] --> xd6[add data with query] --> xd7[see fetched data] --> xd8[pack it's data] --> xd9[see it's chart and pivot] --> xd10[export result]
 xd3--> xd5[set robot]
 xd4 --> xd11[import data with excel] --> xd12[see their columns] --> xd13[select using columns] --> xd8
-xd4 --> xd14[form builder]
+xd4 --> xd14[form builder]--> xd15[???ask from master???] --> xd8
 :::
 
 
