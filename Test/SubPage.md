@@ -58,3 +58,17 @@ xd1-->id7[see results]
 
 :::
 
+
+##Use Case Relationship Diagram
+
+::: mermaid
+ graph LR;
+style xd1 fill:#00FFFF
+
+xd1[trainer] --> xd2[see data pack list] --> xd3[see overall info] --> xd4[start new pack] --> xd6[add data with query] --> xd7[see fetched data] --> xd8[pack it's data] --> xd9[see it's chart and pivot] --> xd10[export result]
+xd3--> xd5[set robot]
+:::
+
+
+
+
