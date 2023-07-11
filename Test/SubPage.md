@@ -119,7 +119,7 @@ classDiagram
     Train: +int SeriesLenght
     Train: +int Horizon
     Train: +datetime LatestUpdate
-    Train: Evaluation Results
+    Train: +int RSquared
 
 
   
