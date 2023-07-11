@@ -69,6 +69,8 @@ xd1[trainer] --> xd2[see data pack list] --> xd3[see overall info] --> xd4[start
 xd3--> xd5[set robot]
 xd4 --> xd11[import data with excel] --> xd12[see their columns] --> xd13[select using columns] --> xd8
 xd4 --> xd14[form builder]--> xd15[???ask from master???] --> xd8
+
+xd2 --> xd16[filter packs] --> xd17[see overall info] --> xd18[select one record to see details] --> xd8
 :::
 
 
