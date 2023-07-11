@@ -99,3 +99,5 @@ style xd1 fill:#00FFFF
 xd1[admin] --> xd2[see robot list] --> xd3[defined a robot] --> xd6[assign a job to robot]
 xd2 --> xd4[filter robots] --> xd5[select one record to see details]
 :::
+
+
