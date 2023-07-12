@@ -106,7 +106,7 @@ xd2 --> xd4[filter robots] --> xd5[select one record to see details]
 classDiagram
     Predict<|-- Train
     Train <|-- Data View 
-    Data View <|-- Data View Record
+    Data View Record<|-- Data View 
     Predict: +int Id
     Predict: +int Train Id
     Predict: +int Predicted Value
@@ -121,7 +121,33 @@ classDiagram
     Train: +datetime LatestUpdate
     Train: +int RSquared
 
+    Data View: +int Id
+    Data View: +string Data View
+
+
+    Data View Record: +int Id
+    Data View Record: +int Data View Id
+    Data View Record: +int Data Record
+    
+
 
   
 :::
 
+
+##Machine Learning Services
+
+
+:::mermaid
+requirementDiagram
+    requirement development_req {
+    id: 1
+    text: requirements spec.
+    risk: medium
+    verifymethod: test
+    }
+    element test_suite {
+    type: manual test
+    }
+    
+:::
