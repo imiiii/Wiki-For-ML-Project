@@ -1,6 +1,10 @@
 
 
 [[_TOC_]]
+
+##about the software
+this software used to predict some values by using regression models such as forecasting algorithms and Tree like algorithms.
+imported packages for this usage are microsoft ML, microsoft ML fast free, and microsoft ML time series. 
 ##ML senarios
 
 *here are two senario for using ML in our project
