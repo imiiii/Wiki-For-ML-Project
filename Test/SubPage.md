@@ -1,6 +1,15 @@
 
 
 [[_TOC_]]
+##Overview
+AI is one of the multiple Modules used to describe the Fennec project.
+::: mermaid
+ graph LR;
+ A[Fennec Project] --> B[Module A];
+ A -->C[Module B]
+ A -->D[AI Module]
+style D fill:#FFFF00
+:::
 
 ##About the software
 This software is used to predict some values by using regression models such as forecasting algorithms and Tree-like algorithms.
