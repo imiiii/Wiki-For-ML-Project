@@ -138,16 +138,3 @@ classDiagram
 ##Machine Learning Services
 
 
-:::mermaid
-requirementDiagram
-    requirement development_req {
-    id: 1
-    text: requirements spec.
-    risk: medium
-    verifymethod: test
-    }
-    element test_suite {
-    type: manual test
-    }
-    
-:::
