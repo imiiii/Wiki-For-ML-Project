@@ -7,7 +7,7 @@ This software is used to predict some values by using regression models such as 
 Imported packages for this usage are Microsoft ML, Microsoft ML Fast Tree, and Microsoft ML Time Series, available in the NuGet package. 
 ##ML senarios
 
-*here are two senario for using ML in our project
+* here are two senario for using ML in our project
 
 ::: mermaid
  graph LR;
@@ -27,10 +27,10 @@ style B fill:#FFFF00
 
 :::
 ##Actors
-*Data Provider: someone who is an expert in understanding the meaning of Data in software and can create a proper schema for the data view model, gather and combine data to the data view model as data records and import them to the database.
-*Trainer: someone who has a slightly shallow knowledge of machine learning algorithms just to start a learning phase and see training results and understand them to know how well the data works with the trained model.
+* Data Provider: someone who is an expert in understanding the meaning of Data in software and can create a proper schema for the data view model, gather and combine data to the data view model as data records and import them to the database.
+* Trainer: someone who has a slightly shallow knowledge of machine learning algorithms just to start a learning phase and see training results and understand them to know how well the data works with the trained model.
 this role can import a record and use the pre-trained model to predict phase.   
-
+* Admin: someone with all the roll in the system that has general knowledge about the system to define software settings.
 
 ##Use Cases
 ::: mermaid
