@@ -165,4 +165,12 @@ style B fill:#FFFF00
 
 :::
 
+::: mermaid
+ graph LR;
+ A[ML Context] -->|input| B(Load From File) -->|output| C[IDataView];
+g[Data Path] --> |input|B
+d[Data Model] --> |input|B
+style B fill:#FFFF00
 
+
+:::
