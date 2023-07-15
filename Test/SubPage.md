@@ -155,5 +155,14 @@ classDiagram
 
 
 ##Machine Learning Services
+* here is the ML service that the AI module used to work with.
+::: mermaid
+ graph LR;
+ A[ConnectionString, Query] -->|input| B(Load From Database Service) -->|output| C[IDataView];
+d[Query] --> |input|B
+style B fill:#FFFF00
+
+
+:::
 
 
