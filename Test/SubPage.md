@@ -158,19 +158,72 @@ classDiagram
 * here is the ML service that the AI module used to work with.
 ::: mermaid
  graph LR;
- A[ConnectionString, Query] -->|input| B(Load From Database Service) -->|output| C[IDataView];
-d[Query] --> |input|B
-style B fill:#FFFF00
+ A1[ConnectionString] -->|input| A2(Load From Database Service) -->|output| A3[IDataView];
+A4[Query] --> |input|A2
+style A2 fill:#FFFF00
 
 
 :::
 
 ::: mermaid
  graph LR;
- A[ML Context] -->|input| B(Load From File) -->|output| C[IDataView];
-g[Data Path] --> |input|B
-d[Data Model] --> |input|B
-style B fill:#FFFF00
+ A1[ML Context] -->|input| A2(Load From File Service) -->|output| A3[IDataView];
+A4[Data Path] --> |input|A2
+A5[Data Model] --> |input|A2
+style A2 fill:#FFFF00
+
+
+:::
+::: mermaid
+ graph LR;
+ A1[ML Context] -->|input| A2(Train Service) -->|output| A3[ML Context];
+A4[IDataView] --> |input|A2
+A5[Input Column] --> |input|A2
+A6[Output Column] --> |input|A2
+A7[Series Lenght] --> |input|A2
+A8[Horizon] --> |input|A2
+A2--> |output| A9[Trained Model]
+
+
+style A2 fill:#FFFF00
+
+
+:::
+
+
+::: mermaid
+ graph LR;
+ A1[ML Context] -->|input| A2(Evaluation Service) -->|output| A3[Evaluation Metrics];
+A4[Trained Model] --> |input|A2
+A5[Test Data View] --> |input|A2
+style A2 fill:#FFFF00
+
+
+:::
+
+
+::: mermaid
+ graph LR;
+ A1[ML Context] -->|input| A2(Save Model Service) -->|output| A3[Trained Model zip];
+A4[Model Path] --> |input|A2
+A5[Trained Model] --> |input|A2
+A6[IDataView] -->|input|A2
+
+style A2 fill:#FFFF00
+
+
+:::
+
+
+::: mermaid
+ graph LR;
+ A1[ML Context] -->|input| A2(Prediction Service) -->|output| A3[Score];
+A4[Model Path] --> |input|A2
+A5[DataViewModel] --> |input|A2
+A6[IDataView] -->|input|A2
+
+
+style A2 fill:#FFFF00
 
 
 :::
