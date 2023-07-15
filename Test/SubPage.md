@@ -155,7 +155,8 @@ classDiagram
 
 
 ##Machine Learning Services
-* here is the ML service that the AI module used to work with.
+*Here is the ML service that the AI module used to work with.*
+ - Data loader from database by connection string and query.
 ::: mermaid
  graph LR;
  A1[ConnectionString] -->|input| A2(Load From Database Service) -->|output| A3[IDataView];
@@ -164,7 +165,7 @@ style A2 fill:#FFFF00
 
 
 :::
-
+ - Data loader from file.
 ::: mermaid
  graph LR;
  A1[ML Context] -->|input| A2(Load From File Service) -->|output| A3[IDataView];
@@ -174,6 +175,7 @@ style A2 fill:#FFFF00
 
 
 :::
+ - Training service to return trained model.
 ::: mermaid
  graph LR;
  A1[ML Context] -->|input| A2(Train Service) -->|output| A3[ML Context];
@@ -190,7 +192,7 @@ style A2 fill:#FFFF00
 
 :::
 
-
+ - Evaluation service to examine how the trained model works by returning evaluation metrics.
 ::: mermaid
  graph LR;
  A1[ML Context] -->|input| A2(Evaluation Service) -->|output| A3[Evaluation Metrics];
@@ -201,7 +203,7 @@ style A2 fill:#FFFF00
 
 :::
 
-
+- Save the pretrained model to the given address.
 ::: mermaid
  graph LR;
  A1[ML Context] -->|input| A2(Save Model Service) -->|output| A3[Trained Model zip];
@@ -214,7 +216,7 @@ style A2 fill:#FFFF00
 
 :::
 
-
+- load the saved model from the given address and make a single prediction one it.
 ::: mermaid
  graph LR;
  A1[ML Context] -->|input| A2(Prediction Service) -->|output| A3[Score];
