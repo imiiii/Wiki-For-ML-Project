@@ -42,6 +42,18 @@ this role can import a record and use the pre-trained model to predict phase.
 * Admin: someone with all the roll in the system that has general knowledge about the system to define software settings.
 
 ##Use Cases
+> |Data Provider | Trainer| Admin|
+> |--------|--------------| -----|
+> |import data | start training | defined a job|
+> |see it's data|save trained model| see all jobs|
+> |select their data | assign robot to pretrained model | defined a robot|
+> | filter data| start prediction | see all robots|
+> |see results | enter training properties | assign a job to a robot|
+> | normalize data| enter prediction properties | select one record to see details |
+> |export it's data | see last prediction info | filter robots|
+> | save data model| see list of predictions | filter jobs |
+> |see charts and pivots | see results | ---- |
+> |see the correlation for a data| see charts and pivots | ---- |
 ::: mermaid
 graph LR;
 style id1 fill:#00FFFF
@@ -229,3 +241,13 @@ style A2 fill:#FFFF00
 
 
 :::
+
+
+
+
+
+
+
+
+
+
